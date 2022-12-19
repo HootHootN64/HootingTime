@@ -1,0 +1,33 @@
+Hooting Time 1.1 (Rhydon):
+- Console audio issue			Mostly Fixed (Occasional errors & Blue shell sound issue)
+- Random cups mirrored course load      Fixed
+- Orig. HUD shows map & radar		Fixed
+- Rear-view fall through		Fixed
+- 4th player results screen mess	Fixed
+- GP Points don't show over 127		Fixed
+- Orig. HUD camera zoom doesn't work	Fixed
+- Retry button works in TT pause menu	Fixed
+- Debug menu opened by accident		Fixed
+- Not saved to eeprom in pause menu	Fixed
+- Rivals code not compatible 4pGP	Fixed
+- Rivals/Screen safezones not saved	Fixed
+- Red shell hit sound if target star	Fixed
+- Retroarch recognized as console 	Fixed: Override toggle in performance settings
+- Show menu arrow on wrong occasions	Fixed
+- 4P perform settingsnot implemented	Fixed
+- Perform settings 3p+ instead 4p	New
+- Christmas titlescreen			New
+- Red Shell pathfind option under race	New
+- Itembox style option under HUD	New
+- Choco Mountain at night		New
+- Red shells target aimed at person	New
+- (Green shell total control)		New
+
+Hooting Time 1.0 (Rhydon):
+n.a.
+
+Hooting Time 0.2:
+n.a.
+
+Hooting HUD 0.1:
+n.a.
