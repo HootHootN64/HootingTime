@@ -24,7 +24,7 @@ Hooting Time 1.1 (Rhydon):
 - Full screen online mode               Back
 - (Green shell total control)		New
 
-Hooting Time 1.0 (Rhydon):
+Hooting Time 1.0 (Metapod):
 n.a.
 
 Hooting Time 0.2:
