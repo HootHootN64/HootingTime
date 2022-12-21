@@ -22,8 +22,10 @@ Hooting Time 1.1 (Rhydon):
 - Choco Mountain at night		New
 - Red shells target aimed at person	New
 - Toggle to disable rear-view	        New: Settings -> Player Controller -> Rearview Button2: disable
-- Full screen online mode               Comeback (Controller: Hold D-Up | Every player needs their own custom patch)
-- (Green shell total control)		New
+- Full screen online mode               Comeback (Controller: Hold D-Up)
+- Widescreen mode moved to settings     Changed: Settings -> Hud & Screen -> Widescreen
+- 2p vertical screen moved to settings  Changed: Settings -> Hud & Screen -> 2p vert. screen
+- (Green shell total control)		Devlog
 
 Hooting Time 1.0 (Metapod):
 n.a.
@@ -33,3 +35,6 @@ n.a.
 
 Hooting HUD 0.1 (Togepi):
 n.a.
+
+--------------------------------------
+* Every player needs their own customized patch with player number engraved
