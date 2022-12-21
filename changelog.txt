@@ -17,8 +17,8 @@ Hooting Time 1.1 (Rhydon):
 - 4P perform settings not implemented	Fixed
 - Perform settings 3p+ instead 4p	New
 - Christmas titlescreen			New
-- Red Shell pathfind option under race	New
-- Itembox style option under HUD	New
+- Red Shell pathfind option           	New: Settings -> Race -> Red Shell Aim
+- Itembox style option          	New: Settings -> Hud & Screen -> Itembox Style
 - Choco Mountain at night		New
 - Red shells target aimed at person	New
 - Toggle to disable rear-view	        New: Settings -> Player Controller -> Rearview Button2: disable
