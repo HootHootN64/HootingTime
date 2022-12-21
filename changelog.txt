@@ -12,19 +12,19 @@ Hooting Time 1.1 (Rhydon):
 - Rivals code not compatible 4pGP	Fixed
 - Rivals/Screen safezones not saved	Fixed
 - Red shell hit sound if target star	Fixed
-- Retroarch recognized as console 	Fixed: Settings -> Performance -> !!!System override: Emulator
+- Retroarch recognized as console 	Fixed 	Settings -> Performance -> !!!System override: Emulator
 - Show menu arrow on wrong occasions	Fixed
 - 4P perform settings not implemented	Fixed
 - Perform settings 3p+ instead 4p	New
 - Christmas titlescreen			New
-- Red Shell pathfind option           	New: Settings -> Race -> Red Shell Aim
-- Itembox style option          	New: Settings -> Hud & Screen -> Itembox Style
+- Red Shell pathfind option           	New 	Settings -> Race -> Red Shell Aim
+- Itembox style option          	New 	Settings -> Hud & Screen -> Itembox Style
 - Choco Mountain at night		New
 - Red shells target aimed at person	New
-- Toggle to disable rear-view	        New: Settings -> Player Controller -> Rearview Button2: disable
-- Full screen online mode               Comeback (Controller: Hold D-Up)
-- Widescreen mode moved to settings     Changed: Settings -> Hud & Screen -> Widescreen
-- 2p vertical screen moved to settings  Changed: Settings -> Hud & Screen -> 2p vert. screen
+- Toggle to disable rear-view	        New 	Settings -> Player Controller -> Rearview Button2: disable
+- Full screen online mode               Return	Controller: Hold D-Up
+- Widescreen mode moved to settings     Change 	Settings -> Hud & Screen -> Widescreen
+- 2p vertical screen moved to settings  Change 	Settings -> Hud & Screen -> 2p vert. screen
 - (Green shell total control)		Devlog
 
 Hooting Time 1.0 (Metapod):
@@ -35,6 +35,3 @@ n.a.
 
 Hooting HUD 0.1 (Togepi):
 n.a.
-
---------------------------------------
-* Every player needs their own customized patch with player number engraved
