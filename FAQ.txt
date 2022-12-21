@@ -1,0 +1,22 @@
+###########
+# General #
+###########
+
+############
+# EMULATOR #
+############
+
+Why does it not work on Emulator?
+  - Don't use old Emulator versions. I recommend Project 64 3.0.1. 
+  - Enable 8mb memory
+  - Disable debugger & interpreter core for max performance
+  
+Why are custom characters translucent?
+  - Change your video plugin. I recommend the Project 64 video plugin.
+  
+###########
+# CONSOLE #
+###########
+
+Why does Hooting Time 1.0 crash all the time?
+  - It's not fully compatible with console due to faulty floating point operations with the sound code there
