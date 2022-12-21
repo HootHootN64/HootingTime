@@ -2,7 +2,7 @@ Hooting Time 1.1 (Rhydon):
 - Console audio issue			Mostly Fixed (Occasional errors & Blue shell sound issue)
 - Random cups mirrored course load      Fixed
 - Orig. HUD shows map & radar		Fixed
-- Rear-view fall through		Mostly Fixed (Occasional Fall throughs & height jumps)
+- Rear-view fallthrough		Mostly Fixed (Occasional fallthroughs & height jumps)
 - 4th player results screen mess	Fixed
 - GP Points don't show over 127		Fixed
 - Orig. HUD camera zoom doesn't work	Fixed
@@ -14,7 +14,7 @@ Hooting Time 1.1 (Rhydon):
 - Red shell hit sound if target star	Fixed
 - Retroarch recognized as console 	Fixed: Override toggle in performance settings
 - Show menu arrow on wrong occasions	Fixed
-- 4P perform settingsnot implemented	Fixed
+- 4P perform settings not implemented	Fixed
 - Perform settings 3p+ instead 4p	New
 - Christmas titlescreen			New
 - Red Shell pathfind option under race	New
