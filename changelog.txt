@@ -27,7 +27,7 @@ Hooting Time 1.1 (Rhydon):
 Hooting Time 1.0 (Metapod):
 n.a.
 
-Hooting Time 0.2 (Porygon):
+Hooting Time 0.2 (Ditto):
 n.a.
 
 Hooting HUD 0.1 (Togepi):
