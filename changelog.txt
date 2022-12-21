@@ -1,8 +1,8 @@
 Hooting Time 1.1 (Rhydon):
 - Console audio issue			Mostly Fixed (Occasional errors & Blue shell sound issue)
+- Rear-view fallthrough		        Mostly Fixed (Occasional fallthroughs & height jumps)
 - Random cups mirrored course load      Fixed
 - Orig. HUD shows map & radar		Fixed
-- Rear-view fallthrough		        Mostly Fixed (Occasional fallthroughs & height jumps)
 - 4th player results screen mess	Fixed
 - GP Points don't show over 127		Fixed
 - Orig. HUD camera zoom doesn't work	Fixed
