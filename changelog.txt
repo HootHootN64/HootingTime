@@ -2,7 +2,7 @@ Hooting Time 1.1 (Rhydon):
 - Console audio issue			Mostly Fixed (Occasional errors & Blue shell sound issue)
 - Random cups mirrored course load      Fixed
 - Orig. HUD shows map & radar		Fixed
-- Rear-view fall through		Fixed
+- Rear-view fall through		Mostly Fixed (Occasional Fall throughs & height jumps)
 - 4th player results screen mess	Fixed
 - GP Points don't show over 127		Fixed
 - Orig. HUD camera zoom doesn't work	Fixed
@@ -21,6 +21,7 @@ Hooting Time 1.1 (Rhydon):
 - Itembox style option under HUD	New
 - Choco Mountain at night		New
 - Red shells target aimed at person	New
+- Full screen online mode               Back
 - (Green shell total control)		New
 
 Hooting Time 1.0 (Rhydon):
