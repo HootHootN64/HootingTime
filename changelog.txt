@@ -21,7 +21,7 @@ Hooting Time 1.1 (Rhydon):
 - Itembox style option under HUD	New
 - Choco Mountain at night		New
 - Red shells target aimed at person	New
-- Full screen online mode               Back
+- Full screen online mode               Comeback
 - (Green shell total control)		New
 
 Hooting Time 1.0 (Metapod):
