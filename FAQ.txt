@@ -1,6 +1,17 @@
 ###########
-# General #
+# GENERAL #
 ###########
+
+###########
+# PLAYING #
+###########
+
+How can I play it?
+  - You need a backup of your ‘Mario Kart 64 (U) [!].z64′ ROM
+  - Then apply the patch to it using a .bps patcher (beat, flips …) 
+    or use an online tool (https://patch.wedarobi.com/hootingtime)
+  - Open it in an Emulator like Project 64
+  - Have a hooting time!
 
 ############
 # EMULATOR #
