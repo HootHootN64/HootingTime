@@ -15,7 +15,6 @@ Hooting Time 1.1 (Rhydon):
 - Retroarch recognized as console 	Fixed 	Settings -> Performance -> !!!System override: Emulator
 - Show menu arrow on wrong occasions	Fixed
 - 4P perform settings not implemented	Fixed
-- Perform settings 3p+ instead 4p	New
 - Christmas titlescreen			New
 - Red Shell pathfind option           	New 	Settings -> Race -> Red Shell Aim
 - Itembox style option          	New 	Settings -> Hud & Screen -> Itembox Style
@@ -25,6 +24,7 @@ Hooting Time 1.1 (Rhydon):
 - Full screen online mode               Return	Controller: Hold D-Up
 - Widescreen mode moved to settings     Change 	Settings -> Hud & Screen -> Widescreen
 - 2p vertical screen moved to settings  Change 	Settings -> Hud & Screen -> 2p vert. screen
+- Perform settings 3p+ instead 4p	Change
 - (Green shell total control)		Devlog
 
 Hooting Time 1.0 (Metapod):
