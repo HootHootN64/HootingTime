@@ -17,7 +17,7 @@ Hooting Time 1.1 (Rhydon):
 - 4P perform settings not implemented	Fixed
 - VS CPUs slip & explode original code	Fixed
 - VS MP results music played twice	Fixed
-- Start boost faulty orig. sound call	Fixed
+- Start boost sound faulty orig. code	Fixed
 - Christmas titlescreen			New
 - Red Shell pathfind option           	New 	Settings -> Race -> Red Shell Aim 
                                                 (Original: Only for ranks 5+ | out of view: Original + when target not in draw distance | Always)
