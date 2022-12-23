@@ -20,7 +20,7 @@ Hooting Time 1.1 (Rhydon):
 - Start boost faulty orig. sound call	Fixed
 - Christmas titlescreen			New
 - Red Shell pathfind option           	New 	Settings -> Race -> Red Shell Aim 
-                                                (Original: Only for ranks 5+ | out of view: Original + when target not in sight | Always)
+                                                (Original: Only for ranks 5+ | out of view: Original + when target not in draw distance | Always)
 - Itembox style option          	New 	Settings -> Hud & Screen -> Itembox Style
 - Choco Mountain at night		New
 - Red shell target set once after shot	New
