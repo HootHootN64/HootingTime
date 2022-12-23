@@ -15,18 +15,24 @@ Hooting Time 1.1 (Rhydon):
 - Retroarch recognized as console 	Fixed 	Settings -> Performance -> !!!System override: Emulator
 - Show menu arrow on wrong occasions	Fixed
 - 4P perform settings not implemented	Fixed
+- VS CPUs slip & explode original code	Fixed
+- VS MP results music played twice	Fixed
+- Start boost faulty orig. sound call	Fixed
 - Christmas titlescreen			New
 - Red Shell pathfind option           	New 	Settings -> Race -> Red Shell Aim 
                                                 (Original: Only for ranks 5+ | out of view: Original + when target not in sight | Always)
 - Itembox style option          	New 	Settings -> Hud & Screen -> Itembox Style
 - Choco Mountain at night		New
-- Red shells target aimed at person	New
+- Red shell target set once after shot	New
 - Toggle to disable rear-view	        New 	Settings -> Player Controller -> Rearview Button2: disable
 - Widescreen mode moved to settings     Change 	Settings -> Hud & Screen -> Widescreen
 - 2p vertical screen moved to settings  Change 	Settings -> Hud & Screen -> 2p vert. screen
 - Perform settings 3p+ instead 4p	Change
-- Fullscreen online/multiplayer         Return	Controller: Hold D-Up
+- Fullscreen mode in MP use with bots   Return	Controller: Hold D-Up
 - (Green shell total control)		Devlog
+
+- Kamek SOunds				ToDo
+- VS count				ToDo
 
 Hooting Time 1.0 (Metapod):
 n.a.
