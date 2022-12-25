@@ -2,6 +2,7 @@
 # GENERAL #
 ###########
 
+
 ###########
 # PLAYING #
 ###########
@@ -12,6 +13,7 @@ How can I play it?
     or use an online tool (https://patch.wedarobi.com/hootingtime)
   - Open it in an Emulator like Project 64 / play it from your EverDrive cartridge on console
   - Have a Hooting Time!
+
 
 ############
 # EMULATOR #
@@ -24,6 +26,7 @@ Why does it not work on Emulator?
   
 Why are custom characters translucent?
   - Change your video plugin. I recommend the Project 64 video plugin. (Heard that Glide works with PJ64 4.0)
+  
   
 ###########
 # CONSOLE #
