@@ -18,7 +18,7 @@ How can I play it?
 ############
 
 Why does it not work on Emulator?
-  - Don't use old Emulator versions. I recommend Project 64 3.0.1 or 4.0. 
+  - Don't use old Emulator versions. I recommend Project 64 3.0.1 or 4.0
   - Enable 8mb memory
   - Disable debugger & interpreter core for max performance
   
@@ -30,7 +30,7 @@ Why are custom characters translucent?
 ###########
 
 What's the error in the address arange around 800c4a64 in Hooting Time 1.1?
-  - Still an audio related issue. You could try to set the audio to 'Mono' in-game to mitigate it.
+  - Still an audio related issue. You could try to set the audio to 'Mono' in-game to mitigate it
 
 Why does Hooting Time 1.0 crash all the time?
   - It's not fully compatible with console due to faulty floating point operations within the sound code there
