@@ -1,4 +1,6 @@
-Hooting Time 1.1 (Chansey)
+#################
+# 1.1 (Chansey) #
+#################
 - Console crash audio issue		Mostly Fixed (Occasional errors & Blue shell sound issue)
 - Rear-view fallthrough		        Mostly Fixed (Occasional fallthroughs & height jumps)
 - Random cups mirrored course load      Fixed
@@ -24,8 +26,7 @@ Hooting Time 1.1 (Chansey)
 - VS 3p & 4p win count wrong		Fixed
 - Ceremony custom bot name wrong	Fixed
 - Christmas titlescreen			New
-- Red Shell pathfind option           	New 	Settings -> Race -> Red Shell Aim 
-                                                (Original: Only for ranks 5+ | out of view: Original + when target not in sight | Always)
+- Red Shell pathfind option           	New 	Settings -> Race -> Red Shell Aim (Original: Only for ranks 5+ | out of view: Original + when target not in sight | Always)
 - Itembox style option          	New 	Settings -> Hud & Screen -> Itembox Style
 - Choco Mountain at night		New
 - Red shell target set once after shot	New
@@ -38,7 +39,9 @@ Hooting Time 1.1 (Chansey)
 - (Disabled char sfx after GP win sfx)  Devlog
 
 
-Hooting Time 0.3/1.0 (Metapod):
+#####################
+# 0.3/1.0 (Metapod) #
+#####################
 - 4 player Grand Prix 1.1		New
 - 16 characters	playable		New
 - Player select graphics		New
@@ -51,7 +54,9 @@ Hooting Time 0.3/1.0 (Metapod):
 - ...
 
 
-Hooting Time 0.2 (Ditto):
+############################
+# Hooting Time 0.2 (Ditto) #
+############################
 - CPUs have all items			New
 - CPUs have basic 'AI' 			New
 - CPU settings				New
@@ -63,7 +68,9 @@ Hooting Time 0.2 (Ditto):
 - ...
 
 
-Hooting HUD 0.1 (Togepi):
+############################
+# Hooting HUD 0.1 (Togepi) #
+############################
 - Hooting HUD design 			New
 - Speedometers for everyone		New	
 - Z-button option menu			New
