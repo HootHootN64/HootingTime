@@ -1,3 +1,8 @@
+################
+# 1.2 (Rhydon) #
+################
+- n.a.
+
 #################
 # 1.1 (Chansey) #
 #################
@@ -24,7 +29,8 @@
 - VS/BA	p1 name not shown		Fixed
 - VS/BA	no win sound			Fixed
 - VS 3p & 4p win count wrong		Fixed
-- Ceremony custom bot name wrong	Fixed
+- Ceremony custom bot name/sfx wrong	Fixed
+- Hooting menu doesn't use offsets	Fixed
 - Christmas titlescreen			New
 - Red Shell pathfind option           	New 	Settings -> Race -> Red Shell Aim (Original: Only for ranks 5+ | out of view: Original + when target not in sight | Always)
 - Itembox style option          	New 	Settings -> Hud & Screen -> Itembox Style
@@ -44,7 +50,12 @@
 #####################
 - 4 player Grand Prix 1.1		New
 - 16 characters	playable		New
+- Random character select		New
+- Bots					New
 - Player select graphics		New
+- Randomizing GP options		New
+- Mirrored time trial			New
+- Custom trophy scenes			New
 - Intro sequence			Change
 - Fullscreen online mode		Remove
 - 50 achievements			Remove
