@@ -6,7 +6,7 @@
 #################
 # 1.1 (Chansey) #
 #################
-- Console crash audio issue		Mostly Fixed (Occasional errors & Blue shell sound issue)
+- Console crash audio issue		Fixed
 - Rear-view fallthrough		        Mostly Fixed (Occasional fallthroughs & height jumps)
 - Random cups mirrored course load      Fixed
 - Orig. HUD shows map & radar		Fixed
