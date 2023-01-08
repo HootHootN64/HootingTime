@@ -33,6 +33,8 @@
 - Hooting menu doesn't use offsets	Fixed
 - BA 3p+ no ballons (smoke needed!)	Fixed
 - Feather lost during star/ghost usage	Fixed
+- Lightning hit CPUs can use start	Fixed
+- Troph ceremony stuck due to mirrored	Fixed
 - Christmas titlescreen			New
 - Feather item in battle		New
 - Red shells in battle can be dodged	New
@@ -47,6 +49,7 @@
 - Fullscreen mode in MP use with bots   Return	Controller: Hold D-Up
 - (Green shell total control)		Devlog
 - (Disabled char sfx after GP win sfx)  Devlog
+- (Kill dodged blue shells on console) 	Devlog
 
 
 #####################
