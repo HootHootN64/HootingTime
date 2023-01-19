@@ -1,11 +1,11 @@
-################
-# 1.2 (Rhydon) #
-################
+###########################
+# 1.2 (Rhydon) ????-??-?? #
+###########################
 - n.a.
 
-#################
-# 1.1 (Chansey) #
-#################
+############################
+# 1.1 (Chansey) 2023-01-19 #
+############################
 - Console crash audio issue		Fixed
 - Rear-view fallthrough		        Mostly Fixed (Occasional fallthroughs & height jumps)
 - Random cups mirrored course load      Fixed
@@ -54,9 +54,9 @@
 - (Kill dodged blue shells on console) 	Devlog
 
 
-#####################
-# 0.3/1.0 (Metapod) #
-#####################
+################################
+# 0.3/1.0 (Metapod) ????-??-?? #
+################################
 - 4 player Grand Prix 1.1		New
 - 16 characters	playable		New
 - Random character select		New
@@ -74,9 +74,9 @@
 - ...
 
 
-############################
-# Hooting Time 0.2 (Ditto) #
-############################
+#######################################
+# Hooting Time 0.2 (Ditto) ????-??-?? #
+#######################################
 - CPUs have all items			New
 - CPUs have basic 'AI' 			New
 - CPU settings				New
@@ -88,9 +88,9 @@
 - ...
 
 
-############################
-# Hooting HUD 0.1 (Togepi) #
-############################
+#######################################
+# Hooting HUD 0.1 (Togepi) ????-??-?? #
+#######################################
 - Hooting HUD design 			New
 - Speedometers for everyone		New	
 - Z-button option menu			New
