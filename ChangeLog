@@ -24,13 +24,13 @@
 - 4P perform settings not implemented	Fixed
 - VS CPUs slip & explode original code	Fixed
 - VS MP results music played twice	Fixed?
-- Start boost faulty orig. sound call	Fixed
-- Kamek sounds & hammerbro sound	Fixed
+- Start boost faulty orig. sound call	Fixed?
+- Kamek sounds & hammerbro sound	noise Fixed
 - VS/BA	p1 name not shown		Fixed
 - VS/BA	no win sound			Fixed
 - VS 3p & 4p win count wrong		Fixed
 - Ceremony custom bot name/sfx wrong	Fixed
-- Hooting menu doesn't use offsets	Fixed
+- Hooting menu doesn't use margins	Fixed
 - BA 3p+ no balloons (smoke needed!)	Fixed
 - Feather lost during star/ghost usage	Fixed
 - Lightning hit CPUs can use star	Fixed
@@ -48,7 +48,7 @@
 - Widescreen mode moved to settings     Change 	Settings -> Hud & Screen -> Widescreen
 - 2p vertical screen moved to settings  Change 	Settings -> Hud & Screen -> 2p vert. screen
 - Perform settings 3p+ instead 4p	Change
-- Fullscreen mode in MP use with bots   Return	Controller: Hold D-Up
+- Fullscreen mode in MP use with bots   Return	Controller: Hold D-Up in-race
 - (Green shell total control)		Devlog
 - (Disabled char sfx after GP win sfx)  Devlog
 - (Kill dodged blue shells on console) 	Devlog
