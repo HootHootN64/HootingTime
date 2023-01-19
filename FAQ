@@ -15,30 +15,30 @@ How can I play it?
 ##########
 
 The game crashed with an error, what should I do?
-  - Please check GitHub issues if it's a known error, otherwise open an issue or DM me with specifics
+  - Please check GitHub issues if it's a known error, otherwise open one or contact me (Discord) with specifics
 
 
-###################
-# EMULATOR ERRORS #
-###################
+    ###################
+    # EMULATOR ERRORS #
+    ###################
 
-Why does it not work on Emulator?
-  - Don't use old Emulator versions. I recommend Project 64 3.0.1 or 4.0
-  - Enable 8mb memory
-  - Disable debugger & interpreter core for max performance
-  
-Why are custom characters translucent?
-  - Change your video plugin. I recommend the Project 64 video plugin. (Heard that Glide works with PJ64 4.0)
+    Why does it not work on Emulator?
+      - Don't use old Emulator versions. I recommend Project 64 3.0.1 or 4.0
+      - Enable 8mb memory
+      - Disable debugger & interpreter core for max performance
 
-Why are the numbers 2 and 5 changed up in the HUD time and rank?
-  - That's a strange behavior some video plugins show for whatever reason
-  
-##################
-# CONSOLE ERRORS #
-##################
+    Why are custom characters translucent?
+      - Change your video plugin. I recommend the Project 64 video plugin. (Heard that Glide works with PJ64 4.0)
 
-What's the error in the address arange around 800c4a64 in Hooting Time 1.1?
-  - Still an audio related issue. You could try to set the audio to 'Mono' in-game to mitigate it
+    Why is the game super fast in multiplayer?
+      - The emulator (e.g. Retroarch/PJ64 4.0) got auto recognized as console. Use Settings -> Performance -> !!!System override: Emulator
 
-Why does Hooting Time 1.0 crash all the time?
-  - It's not fully compatible with console due to faulty floating point operations within the sound code there
+    Why are the numbers 2 and 5 changed up in the HUD time and rank?
+      - That's a strange behavior some video plugins show for whatever reason
+
+    ##################
+    # CONSOLE ERRORS #
+    ##################
+
+    Why does Hooting Time 1.0 crash all the time?
+      - It's not fully compatible with console due to faulty floating point operations within the sound code there. Use 1.1 instead.
