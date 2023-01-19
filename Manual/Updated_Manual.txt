@@ -2,7 +2,7 @@
 # CONTROLLER #
 ##############
 
-  # BEFORE RACE:
+  # BEFORE RACE START:
     - Start (press): Open hooting menu to choose Laps/Balloons
   
   # DURING RACE:
@@ -35,56 +35,57 @@
 ############
 
   # CPU
-    - Items:
-    - Item spawning:
-    - Item table:
-    - Offscreen:
-    - Intelligence:
-    - Rivals:
-    - Gold shroom:
-    - Banana agression:
-    - GP start formation:
+    - Items: original (No shells e.g.) or all items
+    - Item spawning: timer/original (after a period of time) or if they hit an itembox 
+    - Item table: which item probability table. Especially for CPU or like Player (CPU is adviced)
+    - Offscreen: processing of CPUs. Human/No cheating, Combined (Only cheating when player is n top 3), always cheating/original
+    - Intelligence: 
+    - Rivals: Stronger CPUs. Originally there are 2
+    - Gold shroom: Toggle gold shroom usage. (Off is adviced)
+    - Banana agression: When bananas are thrown after the player. Only in 1st place, in top 3 or always
+    - GP start formation: With custom racers as CPUs or without
    
-  # Player kart
+  # PLAYER KART
     - Default character: Default one marked in Player select
   
   # Player controller
     - Rearview Button1: Choose Button
     - Rearview Button2: Choose if press or hold to activate
     
-  # Hud + Screen
+  # HUD + SCREEN
     - HUD style: Look of HUD elements
     - Radar race: Look of radar map
     - Radar battle: Look of radar map
-    - Screen setup: Set the borders of the view your output device displays. Text and elements will be moved inwards if your view is cut.
+    - Screen setup: Set the borders of the view your output device displays. Text and elements will be moved inwards if your view is cut
     - Itembox style: Look of itemboxes
     - Widescreen: Toggle between normal and widescreen resolution
     - 2P vert. screen: Toggle between vertical and horizontal 2 player screen mode
 
-  # Race
+  # RACE
    - Bombs: Toggle bombs on and off per race mode
    - Red shell aim: 
       original (only pathfinding for last places), 
       out-of-view (pathfinding when target is not drawn on screen. Influenced by draw distance!),
       always (use pathfinding)
    
-  # Battle
+  # BATTLE
    - (empty)
   
-  # Performance
-   - 3P+ Course objects:
-   - 3P+ music:
-   - 2P kart DMA:
-   - 3P kart DMA:
-   - 4P kart DMA:
-   - 3P+ drift effect:
-   - 3P+ particle effect:
-   - 3P+ gas effect:
-   - 3P+ spark effect:
-   - 2P render distance: 
-   - 3P render distance: 
-   - 4P render distance: 
+  # PERFORMANCE
+   - 3P+ Course objects: Show Boat/Train etc.
+   - 3P+ music: Play music
+   - 2P kart DMA: How often racer sprites get updated. Low -> Higher performance cost | High -> Lower performance cost
+   - 3P kart DMA: How often racer sprites get updated. Low -> Higher performance cost | High -> Lower performance cost
+   - 4P kart DMA: How often racer sprites get updated. Low -> Higher performance cost | High -> Lower performance cost
+   - 3P+ drift effect: Toggle additional performance relevant effects 
+   - 3P+ particle effect: Toggle additional performance relevant effects 
+   - 3P+ gas effect: Toggle additional performance relevant effects 
+   - 3P+ spark effect: Toggle additional performance relevant effects 
+   - 2P render distance: How far racer sprites get updated. Low -> Higher performance cost | High -> Lower performance cost
+   - 3P render distance: How far racer sprites get updated. Low -> Higher performance cost | High -> Lower performance cost
+   - 4P render distance: How far racer sprites get updated. Low -> Higher performance cost | High -> Lower performance cost
    - !!! System override: 
-      Hooting Time auto recognizes console or emulator. Some emus like RetroArch or PJ64 newest 4.0 are recognized wrongly as console. 
+      Hooting Time auto recognizes Console or Emulator. Some Emus like RetroArch or PJ64 newest 4.0 are recognized wrongly as Console. 
       You can overwrite that here.
       (Don't change if you don't know what you are doing!)
+      
