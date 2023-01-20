@@ -15,7 +15,10 @@
     - C-Right (hold): Toggle (player) hud
     - C-Right (still hold): Toggle auto drive
     
-    - D-Up (hold): Toggle P1 Fullscreen multiplayer mode (use with bots)
+    - D-Up (hold): -
+    - D-Down (hold): -
+    - D-Left (hold): -
+    - D-Right (hold): -
     
     - L (hold): Use rear-view
     - R (press): Jump
