@@ -4,7 +4,7 @@
 - n.a.
 
 ############################
-# 1.1 (Chansey) 2023-01-19 #
+# 1.1 (Chansey) 2023-01-20 #
 ############################
 - Console crash audio issue		Fixed
 - Rear-view fallthrough		        Mostly Fixed (Occasional fallthroughs & height jumps)
@@ -59,6 +59,7 @@
 - 4 player Grand Prix 1.1		New
 - 16 characters	playable		New
 - Random character select		New
+- Settings saved to EEPROM  New
 - Bots					New
 - Player select graphics		New
 - Randomizing GP options		New
