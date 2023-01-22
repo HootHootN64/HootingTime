@@ -4,11 +4,11 @@
 - n.a.
 
 ############################
-# 1.1 (Chansey) 2023-01-20 #
+# 1.1 (Chansey) 2023-01-22 #
 ############################
-- Console crash audio issue		Fixed
-- Rear-view fallthrough		        Mostly Fixed (Occasional fallthroughs & height jumps)
-- Random cups mirrored course load      Fixed
+- Console crash audio issue		Fixed    (Temporarily no blue shell sfx on console!)
+- Rear-view fallthrough		        Improved (Occasional fallthroughs & height jumps)
+- Random cups faulty course load      	Fixed
 - Orig. HUD shows map & radar		Fixed
 - 4th player results screen mess	Fixed
 - GP Points don't show over 127		Fixed
@@ -24,18 +24,19 @@
 - 4P perform settings not implemented	Fixed
 - VS CPUs slip & explode original code	Fixed
 - VS MP results music played twice	Fixed?
-- Start boost faulty orig. sound call	Fixed?
-- Kamek sounds & hammerbro sound	noise Fixed
+- Start boost orig. sound call		Fixed?
+- Kamek sounds & hammerbro sound noise	Fixed
 - VS/BA	p1 name not shown		Fixed
 - VS/BA	no win sound			Fixed
 - VS 3p & 4p win count wrong		Fixed
 - Ceremony custom bot name/sfx wrong	Fixed
-- Hooting menu doesn't use margins	Fixed
+- Hooting menu doesn't use offsets	Fixed
 - BA 3p+ no balloons (smoke needed!)	Fixed
 - Feather lost during star/ghost usage	Fixed
 - Lightning hit CPUs can use star	Fixed
 - Troph ceremony stuck due to mirrored	Fixed
-- Christmas titlescreen			New
+- One-handed Game Select navigation	New
+- Mr. Monk approved Game Select		New
 - Crazy 32 race cup if mirror random	New
 - GP Results auto proceed		New	Press B during GP results to pause!			
 - Feather item in battle		New
@@ -45,12 +46,16 @@
 - Choco Mountain at night		New
 - Red shell target set once after shot	New
 - Toggle to disable rear-view	        New 	Settings -> Player Controller -> Rearview Button2: disable
+- Kart DMA settings for 1P	        New
 - Widescreen mode moved to settings     Change 	Settings -> Hud & Screen -> Widescreen
 - 2p vertical screen moved to settings  Change 	Settings -> Hud & Screen -> 2p vert. screen
 - Perform settings 3p+ instead 4p	Change
 - (Green shell total control)		Devlog
 - (Disabled char sfx after GP win sfx)  Devlog
+- (Shells don't wait to hit)	 	Devlog
 - (Kill dodged blue shells on console) 	Devlog
+- (Disabled bananabunsh throw console) 	Devlog
+- (Disabled BShell sfx console) 	Devlog
 
 
 ################################
