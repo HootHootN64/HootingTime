@@ -6,8 +6,8 @@
 ############################
 # 1.1 (Chansey) 2023-01-22 #
 ############################
-- Console crash audio issue		Fixed    (Temporarily no blue shell sfx on console!)
-- Rear-view fallthrough		        Improved (Occasional fallthroughs & height jumps)
+- Console crash audio issue		Fixed 	(Temporarily no blue shell sfx on console!)
+- Rear-view fallthrough		        Better	(Occasional fallthroughs & height jumps)
 - Random cups faulty course load      	Fixed
 - Orig. HUD shows map & radar		Fixed
 - 4th player results screen mess	Fixed
