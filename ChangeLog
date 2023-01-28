@@ -51,13 +51,15 @@
 - 2p vertical screen moved to settings  Change 	Settings -> Hud & Screen -> 2p vert. screen
 - Perform settings 3p+ instead 4p	Change
 
-- (Shells don't wait to hit)	 	Devlog
+- (Enabled enemy sfx 3p+)		Devlog
 - (Green shell total control)		Devlog
+- (Shells don't wait to hit)	 	Devlog
 - (Disabled char sfx after race over) 	Devlog
 - (Disabled wrongly played sfx)		Devlog
 - (Sfx buffer 8)			Devlog
-- (Enabled enemy sfx 3p+ if OnScreen)	Devlog
+Console:
 - (Kill dodged blue shells on console) 	Devlog
+- (Disabled enemy SFX 3P+ on console) 	Devlog
 
 
 ################################
