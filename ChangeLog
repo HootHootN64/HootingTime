@@ -4,9 +4,9 @@
 - n.a.
 
 ############################
-# 1.1 (Chansey) 2023-01-22 #
+# 1.1 (Chansey) 2023-01-29 #
 ############################
-- Console crash audio issue		Fixed 	(Temporarily no blue shell sfx on console!)
+- Console crash audio issue		Fixed
 - Rear-view fallthrough		        Better	(Occasional fallthroughs & height jumps)
 - Random cups faulty course load      	Fixed
 - Orig. HUD shows map & radar		Fixed
@@ -24,7 +24,7 @@
 - 4P perform settings not implemented	Fixed
 - VS CPUs slip & explode original code	Fixed
 - VS MP results music played twice	Fixed?
-- Start boost orig. sound call		Fixed?
+- Start boost orig. sound call		Fixed
 - Kamek sounds & hammerbro sound noise	Fixed
 - VS/BA	p1 name not shown		Fixed
 - VS/BA	no win sound			Fixed
@@ -34,11 +34,10 @@
 - BA 3p+ no balloons (smoke needed!)	Fixed
 - Feather lost during star/ghost usage	Fixed
 - Lightning hit CPUs can use star	Fixed
-- Troph ceremony stuck due to mirrored	Fixed
 - One-handed Game Select navigation	New
 - Mr. Monk approved Game Select		New
 - Crazy 32 race cup if mirror random	New
-- GP Results auto proceed		New	Press B during GP results to pause!			
+- GP Results auto proceed		New	Press B/Start during GP results to pause!			
 - Feather item in battle		New
 - Red shells in battle can be dodged	New
 - Red Shell race pathfind option       	New 	Settings -> Race -> Red Shell Aim (Original: Only for ranks 5+ | out of view: Original + when target not in sight | Always)
@@ -47,15 +46,18 @@
 - Red shell target set once after shot	New
 - Toggle to disable rear-view	        New 	Settings -> Player Controller -> Rearview Button2: disable
 - Kart DMA settings for 1P	        New
+- Choose track for single race GP cup	New
 - Widescreen mode moved to settings     Change 	Settings -> Hud & Screen -> Widescreen
 - 2p vertical screen moved to settings  Change 	Settings -> Hud & Screen -> 2p vert. screen
 - Perform settings 3p+ instead 4p	Change
-- (Green shell total control)		Devlog
-- (Disabled char sfx after GP win sfx)  Devlog
+
 - (Shells don't wait to hit)	 	Devlog
+- (Green shell total control)		Devlog
+- (Disabled char sfx after race over) 	Devlog
+- (Disabled wrongly played sfx)		Devlog
+- (Sfx buffer 8)			Devlog
+- (Enabled enemy sfx 3p+ if OnScreen)	Devlog
 - (Kill dodged blue shells on console) 	Devlog
-- (Disabled bananabunsh throw console) 	Devlog
-- (Disabled BShell sfx console) 	Devlog
 
 
 ################################
