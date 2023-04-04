@@ -23,7 +23,7 @@ The game crashed with an error, what should I do?
 
     Why is the HUD (itemview, speedometer etc.) all over the place?
       - You didn't complete the HUD setup screen at first start correctly
-      - Go to: Pause>Settings>HUD+Screen and press A while having selected 'screen setup' to try again
+      - Go to: Pause>Settings>HUD+Screen and press A while having selected 'screen setup' to try again (or delete your save file)
 
     ###################
     # EMULATOR ERRORS #
