@@ -17,6 +17,13 @@ How can I play it?
 The game crashed with an error, what should I do?
   - Please check GitHub issues if it's a known error, otherwise open one or contact me (Discord) with specifics
 
+    ##################
+    # GENERAL ERRORS #
+    ##################
+
+    Why is the HUD (itemview, speedometer etc.) all over the place?
+      - You didn't complete the HUD setup screen at first start correctly
+      - Go to: Pause>Settings>HUD+Screen and press A while having selected 'screen setup' to try again
 
     ###################
     # EMULATOR ERRORS #
