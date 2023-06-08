@@ -1,9 +1,28 @@
 ###########################
 # 1.2 (Rhydon) ????-??-?? #
 ###########################
-- Bomb Item  New
-- (Kart2Obj hack react) 	Devlog (Clean!)
-- (Kart2Kart hack react) 	Devlog (Clean! Loop changed!!!)
+- Rear-view fallthrough bug		Fixed
+- Green shell collision bug		Fixed
+- CPU goldshroom bug			Fixed	
+- Start closes menu and saves state	Change
+- Menu available in Game Select		New
+- Set your own GP points		New	Settings -> Race -> Points (-30 to +30)
+- Trophy Cheap-Cheep replaced by Hoot 	New 
+- Pumpkin itembox			New
+- DK barrel itembox			New
+- Power star itembox			New
+- Yoshi Egg itembox			New
+- Custom itembox hit sounds		New
+- Custom itembox animations		New
+- Color swap players in Player Select	New	Only Luigi unlocked! 
+						Hold D-Left / D-Right to change 1st/2nd color, Press D-Up/D-Down to change 1st color brightness
+- Credits skip button			New
+(Kart2Obj full) 			Devlog
+(Kart2Kart full, loop changed!) 	Devlog
+(IB velocity fully stores init pos) 	Devlog
+(Near screen cut IBs)			DevLog
+(IB collission/reset changed)		DevLog
+(EEPROM changed)			DevLog
 
 ########
 # 1.1a #                   
