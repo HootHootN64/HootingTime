@@ -6,7 +6,7 @@
 - CPU goldshroom bug			Fixed	
 - Start closes menu and saves state	Change
 - Menu available in Game Select		New
-- Set your own GP points		New	Settings -> Race -> Points (-30 to +30)
+- Set your own GP points		New	Settings -> Race -> Points (-30 to +30, only available in Game Select!) 
 - Trophy Cheap-Cheep replaced by Hoot 	New 
 - Pumpkin itembox			New 	Settings -> Hud & Screen -> Itembox Style (Racetrack means the new specific IB for the course. Only Star Cup atm!)
 - DK barrel itembox			New	
