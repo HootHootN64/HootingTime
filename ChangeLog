@@ -5,6 +5,7 @@
 - Green shell collision bug		Fixed
 - CPU goldshroom bug			Fixed	
 - Start closes menu and saves state	Change
+- No itembox roulette sfx for bots	Change
 - Menu available in Game Select		New
 - Set your own GP points		New	Settings -> Race -> Points (-30 to +30, only available in Game Select!) 
 - Trophy Cheap-Cheep replaced by Hoot 	New 
