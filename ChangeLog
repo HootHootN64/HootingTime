@@ -1,23 +1,41 @@
 ###########################
-# 1.2 (Rhydon) ????-??-?? #
+# 1.2 (Rhydon) 2023-07-16 #
 ###########################
 - Rear-view fallthrough bug		Fixed
 - Green shell collision bug		Fixed
-- CPU goldshroom bug			Fixed	
-- Start closes menu and saves state	Change
-- No itembox roulette sfx for bots	Change
-- Menu available in Game Select		New
-- Set your own GP points		New	Settings -> Race -> Points (-30 to +30, only available in Game Select!) 
+- CPU gold shroom bug			Fixed	
+- Player select black backgrounds	Fixed
+- Custom player picture in ceremony	Fixed
+- Bomb always best player in ceremony	Fixed
+- Color swap players in Player Select	New	Only Luigi unlocked! 
+						Press C-Up after player is warped down: 
+						Hold D-Left / D-Right to change 1st/2nd color, Press D-Up/D-Down to change 1st color brightness, Press C-Up again to turn Disco on/off
+- Set your own CC speed in 200cc	New     Settings -> Race -> Shell speed 200 cc (0.3 to 2.0)
+- Set your own shell speed in 200cc	New     Settings -> Race -> Custom CC 200 cc (0.3 to 2.0)
+- Raised default 200cc shell speed	New
+- Red shell target moment option	New     Settings -> Race -> Red Shell Target 
+						original: Target contioniously set to the rank before you (CPU overtakes you -> hits actual rank before you   | You overtake target -> hits actual rank before you    | target overtakes another -> hits actual rank before you)
+						once: Target is set once after shot                       (CPU overtakes you -> hits initial rank before you  | You overtake target -> hits initial target behind you | target overtakes another -> hits initial rank before you)
+					        !!! EXPERIMENTAL MODES: !!!
+                                                once+: Target is set once after shot and updates          (CPU overtakes you -> hits initial rank before you  | You overtake target -> hits actual rank before you    | target overtakes another -> hits initial rank before you) 
+                                                once+-: Target is set once after shot and updates         (Like once+                                         | Like once+                                            | target overtakes another -> hits actual rank before you)
+- Reds skip exploded/squished karts 	New	Settings -> Race -> Reds Skip Hit Karts 
+- Set your own track scaling		New	Settings -> Battle-> Track Scaling (-2 to +2. Why in Battle? No idea...)
+						Each track is limited to the min/max values Snooplax tested in his videos, no matter what you do!
+						Scaling only updates at racestart!
 - Trophy Cheap-Cheep replaced by Hoot 	New 
+- Set your own GP points		New	Settings -> Race -> GP Points (-30 to +30, Only available in GameSelect Menu!)
+- Set your own GP points minimum	New     Settings -> Race -> GP Points Min. (0 to -99)
+- Custom itembox hit sounds		New
+- Custom itembox animations		New
 - Pumpkin itembox			New 	Settings -> Hud & Screen -> Itembox Style (Racetrack means the new specific IB for the course. Only Star Cup atm!)
 - DK barrel itembox			New	
 - Power star itembox			New
 - Yoshi Egg itembox			New
-- Custom itembox hit sounds		New
-- Custom itembox animations		New
-- Color swap players in Player Select	New	Only Luigi unlocked! 
-						Hold D-Left / D-Right to change 1st/2nd color, Press D-Up/D-Down to change 1st color brightness
 - Credits skip button			New
+- Menu available in Game Select		New
+- Start closes menu and saves state	Change
+- No Lakitu screen setup at first start	Change
 (Kart2Obj full) 			Devlog
 (Kart2Kart full, loop changed!) 	Devlog
 (IB velocity fully stores init pos) 	Devlog
