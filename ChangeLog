@@ -1,6 +1,12 @@
-###########################
-# 1.2 (Rhydon) 2023-07-16 #
-###########################
+#################################
+# 1.3 (Aerodactyl)   2023-??-?? #
+#################################
+- 16 kb EEPROM				New
+
+
+#################################
+# 1.2 (Rhydon)       2023-07-23 #
+#################################
 - Rear-view fallthrough bug		Fixed
 - Green shell collision bug		Fixed
 - CPU gold shroom bug			Fixed	
@@ -36,7 +42,6 @@
 - Menu available in Game Select		New
 - Start closes menu and saves state	Change
 - No Lakitu screen setup at first start	Change
-
 (Kart2Obj full) 			Devlog
 (Kart2Kart full, loop changed!) 	Devlog
 (IB velocity fully stores init pos) 	Devlog
@@ -44,14 +49,12 @@
 (IB collission/reset changed)		DevLog
 (EEPROM changed)			DevLog
 
-########
-# 1.1a #                   
-########
+
+#################################
+# 1.1(a) (Chansey)   20??-??-?? #
+#################################
 - Future battle stuff removed           Fixed
 
-############################
-# 1.1 (Chansey) 2023-02-06 #
-############################
 - Console crash audio issue		Fixed
 - Rear-view fallthrough		        Better	(Occasional fallthroughs & height jumps)
 - Random cups faulty course load      	Fixed
@@ -108,13 +111,13 @@ Console:
 - (Disabled enemy SFX 3P+ on console) 	Devlog
 
 
-################################
-# 0.3/1.0 (Metapod) ????-??-?? #
-################################
+#################################
+# 0.3/1.0 (Metapod)  20??-??-?? #
+#################################
 - 4 player Grand Prix 1.1		New
 - 16 characters	playable		New
 - Random character select		New
-- Settings saved to EEPROM  New
+- Settings saved to EEPROM		New
 - Bots					New
 - Player select graphics		New
 - Randomizing GP options		New
@@ -129,9 +132,9 @@ Console:
 - ...
 
 
-#######################################
-# Hooting Time 0.2 (Ditto) ????-??-?? #
-#######################################
+#################################
+# 0.2 (Ditto)        20??-??-?? #	Renamed to Hooting Time
+#################################
 - CPUs have all items			New
 - CPUs have basic 'AI' 			New
 - CPU settings				New
@@ -143,9 +146,9 @@ Console:
 - ...
 
 
-#######################################
-# Hooting HUD 0.1 (Togepi) ????-??-?? #
-#######################################
+#################################
+# 0.1 (Togepi)       20??-??-?? # 	Hooting Hud
+#################################
 - Hooting HUD design 			New
 - Speedometers for everyone		New	
 - Z-button option menu			New
