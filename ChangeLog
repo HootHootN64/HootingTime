@@ -1,11 +1,11 @@
 #################################
 # 1.3 (Aerodactyl)   2023-??-?? #
 #################################
-- 16 kb EEPROM				New
+- 16 kb EEPROM thx 2 Litro		New
 
 
 #################################
-# 1.2 (Rhydon)       2023-07-23 #
+# 1.2 (Rhydon)       2023-07-30 #
 #################################
 - Rear-view fallthrough bug		Fixed
 - Green shell collision bug		Fixed
