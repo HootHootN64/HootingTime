@@ -3,7 +3,7 @@
 ###########
 
 How can I play it?
-  - You need a backup of your ‘Mario Kart 64 (U) [!].z64′ ROM
+  - You need a backup of your ‘Mario Kart 64 (USA).z64′ ROM
   - Then apply the patch to it using a .bps patcher (beat, flips …) 
     or use an online tool (https://patch.wedarobi.com/hootingtime)
   - Open it in an Emulator like Project 64 / play it from your EverDrive cartridge on console
@@ -22,7 +22,7 @@ The game crashed with an error, what should I do?
     ##################
 
     Why is the HUD (itemview, speedometer etc.) all over the place?
-      - You didn't complete the HUD setup screen at first start correctly
+      - You didn't complete the HUD setup screen correctly (Prior to v1.2 you were forced to do this at first start, now it's only an option)
       - Go to: Pause>Settings>HUD+Screen and press A while having selected 'screen setup' to try again (or delete your save file)
 
     ###################
@@ -30,9 +30,8 @@ The game crashed with an error, what should I do?
     ###################
 
     Why does it not work on Emulator?
-      - Don't use old Emulator versions. I recommend Project 64 3.0.1 or 4.0
+      - Don't use old Emulator versions. I recommend Project 64 3.0.1
       - Enable 8mb memory
-      - Disable debugger & interpreter core for max performance
 
     Why are custom characters translucent?
       - Change your video plugin. I recommend the Project 64 video plugin. (Heard that Glide works with PJ64 4.0)
@@ -41,11 +40,11 @@ The game crashed with an error, what should I do?
       - The emulator (e.g. Retroarch/PJ64 4.0) got auto recognized as console. Use Settings -> Performance -> !!!System override: Emulator
 
     Why are the numbers 2 and 5 changed up in the HUD time and rank?
-      - That's a strange behavior some video plugins show for whatever reason
+      - That's a strange behavior some video plugins show for whatever reason even with the original game
 
     ##################
     # CONSOLE ERRORS #
     ##################
 
     Why does Hooting Time 1.0 crash all the time?
-      - It's not fully compatible with console due to faulty floating point operations within the sound code there. Use 1.1 instead.
+      - It's not fully compatible with console due to faulty floating point operations within the sound code there. Use a newer version instead.
