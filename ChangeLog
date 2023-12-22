@@ -4,7 +4,7 @@
 
 
 #################################
-# 1.3 (Jigglypuff)   2023-??-?? #
+# 1.3 (Jigglypuff)   2023-12-21 #
 #################################
 - 16 kb EEPROM				New	Use Emu that supports EEPROM changes otherwise you cant save everything!
 - Music Menu				New	Press music button (default C-Down)
@@ -36,6 +36,7 @@
   -- All use same character 		New	P1 completes a crazy cup				
 - CPUs can use same chars		New	Settings -> CPU -> can use same char
 - CPUs can use color 			New	Settings -> CPU -> can use color (random/preset color list)
+- Freedom title flags 			New	
 - Moved track scaling       		Change	Settings -> General -> Track scaling
 
 (Changed EEP Init2All0) 		DevLog
