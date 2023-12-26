@@ -10,7 +10,7 @@
     
     - C-Left (press): Toggle ranking pictures
     - C-Up (press): Toggle camera
-    - C-Down (press): Toggle music volume
+    - C-Down (press): Open music menu
     - C-Right (press): Toggle map
     - C-Right (hold): Toggle (player) hud
     - C-Right (still hold): Toggle auto drive
@@ -42,11 +42,12 @@
     - Item spawning: timer/original (after a period of time) or if they hit an itembox 
     - Item table: which item probability table. Especially for CPU or like Player (CPU is adviced)
     - Offscreen: processing of CPUs. Human/No cheating, Combined (Only cheating when player is n top 3), always cheating/original
-    - Intelligence: 
+    - Intelligence: Shoot shells backwards. Strategically hold shells.
     - Rivals: Stronger CPUs. Originally there are 2
-    - Gold shroom: Toggle gold shroom usage. (Off is adviced)
     - Banana agression: When bananas are thrown after the player. Only in 1st place, in top 3 or always
     - GP start formation: With custom racers as CPUs or without
+    - Can use same kart: Same character usage possibility
+    - Can use color: Character colors random or from predefined list (Only Yoshi atm!)
    
   # PLAYER KART
     - Default character: Default one marked in Player select
@@ -63,31 +64,44 @@
     - Itembox style: Look of itemboxes
     - Widescreen: Toggle between normal and widescreen resolution
     - 2P vert. screen: Toggle between vertical and horizontal 2 player screen mode
+    - Antialias: Rendermode for texture quality
+
+  # GENERAL
+    - Track scaling: Change the height value of the racetrack (Track needs to be reloaded for changes!)
+    - Kids mode: Censors & blocks some used PEGI 16+ stuff for kids
+    - Ice Surface: Use slippery surface for ice surfaces
 
   # RACE
-   - Bombs: Toggle bombs on and off per race mode
-   - Red shell aim: 
+    - Bombs: Toggle bombs on and off per race mode
+    - Red shell aim: 
       original (only pathfinding for last places), 
       out-of-view (pathfinding when target is not drawn on screen. Influenced by draw distance!),
       always (use pathfinding)
+    - Red shell target: Toggle bombs on and off per race mode
+    - Reds skip hit karts: Exploded or skipped characters are skipped
+    - GP points: Set the points for each rank in Grand Prix mode
+    - GP points min: Set the overall possible minimum of points
+    - Custom CC 200cc: Adjust the kart speed yourself in 200cc mode
+    - Shell speed 200cc: Adjust the shell speed yourself in 200cc mode
    
   # BATTLE
-   - (empty)
+    - (empty)
   
   # PERFORMANCE
-   - 3P+ Course objects: Show Boat/Train etc.
-   - 3P+ music: Play music
-   - 2P kart DMA: How often racer sprites get updated. Low -> Higher performance cost | High -> Lower performance cost
-   - 3P kart DMA: How often racer sprites get updated. Low -> Higher performance cost | High -> Lower performance cost
-   - 4P kart DMA: How often racer sprites get updated. Low -> Higher performance cost | High -> Lower performance cost
-   - 3P+ drift effect: Toggle additional performance relevant effects 
-   - 3P+ particle effect: Toggle additional performance relevant effects 
-   - 3P+ gas effect: Toggle additional performance relevant effects 
-   - 3P+ spark effect: Toggle additional performance relevant effects 
-   - 2P render distance: How far racer sprites get updated. Low -> Higher performance cost | High -> Lower performance cost
-   - 3P render distance: How far racer sprites get updated. Low -> Higher performance cost | High -> Lower performance cost
-   - 4P render distance: How far racer sprites get updated. Low -> Higher performance cost | High -> Lower performance cost
-   - !!! System override: 
+    - 3P+ Course objects: Show Boat/Train etc.
+    - 3P+ music: Play music
+    - 1P kart DMA: How often racer sprites get updated. Low -> Higher performance cost | High -> Lower performance cost
+    - 2P kart DMA: How often racer sprites get updated. Low -> Higher performance cost | High -> Lower performance cost
+    - 3P kart DMA: How often racer sprites get updated. Low -> Higher performance cost | High -> Lower performance cost
+    - 4P kart DMA: How often racer sprites get updated. Low -> Higher performance cost | High -> Lower performance cost
+    - 3P+ drift effect: Toggle additional performance relevant effects 
+    - 3P+ particle effect: Toggle additional performance relevant effects 
+    - 3P+ gas effect: Toggle additional performance relevant effects 
+    - 3P+ spark effect: Toggle additional performance relevant effects 
+    - 2P render distance: How far racer sprites get updated. Low -> Higher performance cost | High -> Lower performance cost
+    - 3P render distance: How far racer sprites get updated. Low -> Higher performance cost | High -> Lower performance cost
+    - 4P render distance: How far racer sprites get updated. Low -> Higher performance cost | High -> Lower performance cost
+    - !!! System override: 
       Hooting Time auto recognizes Console or Emulator. Some Emus like RetroArch or PJ64 newest 4.0 are recognized wrongly as Console. 
       You can overwrite that here.
       (Don't change if you don't know what you are doing!)
