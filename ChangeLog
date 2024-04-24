@@ -1,7 +1,84 @@
 #################################
 # 1.4 (Aerodactyl)   2024-??-?? #
 #################################
-- 
+NEW SETUP:   
+- Powershell patch script included
+  - Create ROM out of .bps patch
+  - Create individual online ROMS for each player
+  - Rename MK64-HD Textures to be compatible with ROM
+
+NEW FEATURES:   
+- Online multiplayer fullscreen returns 	//Hold D-Up in-race 				(Only with Hooting HUD active!)	
+- Red shell incoming indicator   		//Settings -> HUD -> Redshell helper		(Red triangle will appear over character when shell in target mode)
+- Shell drift shot option   			//Settings -> Race -> Shell drift shot
+- Shoot all shells backwards option 		//Settings -> Race -> Backwards shells
+  - Shoot triple greens backwards    +CPU 
+  - Shoot blues backwards            +CPU 	(They will attack 1st place from the front)
+  - Shoot reds backwards             +CPU 	(They become weaker orange shells with no targetting & no bouncing off walls)
+  - Shoot triple reds backwards      +CPU 	(They become weaker orange shells with no targetting & no bouncing off walls) 
+- Trophy HootHoot animated 	      
+- More hooting enemies  
+- Psyduck blooper enemy in 1P Yoshi Valley                        
+- New game modes: 
+  - VS/(GP): Health Points battle   		(Battle. Every hit a life is lost. All lost become bomb and no pts)    
+  - VS/GP: Health Points race  			(Race. Every hit a life is lost. All lost become bomb and no pts. One must live to succeed in GP)     
+  - VS/GP: Lap elimination 			(Race. Last one becomes a bomb at end of each lap)       
+  - VS/(GP): Last one drowning   		(Battle. Push your enemies off the track [Megadeathmode only!])              
+- Throw fake IBs/bombs  
+  - CPUs throw fake IBs/bombs  
+- Infect itemboxes with fake IBs setting 	//Settings -> General -> Itembox Infection: off, hits once, permanently hits/respawning		(Fake IB needs to be placed inside IB hit radius!) 
+  - CPUs infect itemboxes with fakes                  
+- Anti-Abney 					(Anti-Cheat Protection)
+- Toggle for game tempo 			//Settings -> General -> Game Tempo 
+- Toggle for custom character transparency 	//Settings -> General -> custom char. alpha 
+
+NEW UNLOCKS:
+- MegaDeathMode (Secret unlock)       		(Only you, your enemies and a thin line that seperates you from doom)
+- Road Rage (Secret unlock)           		//Press L or C-Down to honk at others                              
+- After race drive (Secret unlock)    		(You can still drive during results screen) 
+- Slapstick laugh (Secret unlock)    		(People laughig at your failures) 
+
+CHANGES:
+- Altered boot sequence / EEPROM load 
+- Single lap races possible now 		//Press Start when the HootHoot appears during racestart
+- Simplified 3P/4P HUD 
+- Better crashscreen details   
+- Music menu inside pause menu          
+- EEPROM incompatibility 			//Get previous 1.3 unlocks by holding L for 1 minute on the title screen
+
+FIXES:
+- OG major red shells target bug  
+- OG player tire surface update bug 
+- OG CPU tire update bug 
+- OG CPU spinouts from holding gas during Lakitu dropoff bug   
+- AntiStuckCPU not running in VS  
+- Enemy target player not running in VS 
+- Weird piranha plant collision  
+
+DEVLOG:
+(EEP: 16k Check moved)
+(Online: DMA Var from ROM)
+(Console: Skipped BShells not killed anymore)
+(Console: Console check changed 1->0)
+(Disabled MD-bomb player SFX)
+(enemy item timer changed)
+(player flags moved/autopilot changed)
+(Pathpoint check for reds) 
+(Removed distance check for reds) 
+(Ghost lost msg only Release) 
+(Kill greens Y-VA) 
+(Disable underwater cam) 
+(PSEL Contr butt remove for hidden controls) 
+(Tire surface check changed)
+(GP kart processing func simplified) 
+(Default Shell drift shot for CPUs) 
+(Conditional Startflag draw) 
+(Added Triclon flag to Playerstruct) 
+(Using Lakitu hangflag) 
+(Disabled shroom player sfx spam) 
+(Rounded Romsize to Full MB for cheap EDs) 
+(PAYLOAD_RAM changed) 
+(Reduced static data)
 
 
 #################################
