@@ -30,8 +30,11 @@ NEW FEATURES:
   - CPUs infect itemboxes with fakes                  
 - Anti-Abney 					(Anti-Cheat Protection)
 - Toggle for game tempo 			//Settings -> General -> Game Tempo 
-- Toggle for custom character transparency 	//Settings -> General -> custom char. alpha 
+- Toggle for custom character transparency 	//Settings -> General -> Custom char. alpha 
+- Toggle for showing held item in HUD	        //Settings -> HUD -> Show held item
 - Feather 3.0					(Skip shells, direct hit -> flatten enemy, small radius hit -> spin out enemy)
+- New racetrack variations: 			//Settings -> General -> Map Design: original/hooting
+  - Banshee 
 - Hoot holding key informs about gotten unlock
 
 NEW UNLOCKS:
