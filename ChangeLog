@@ -1,72 +1,130 @@
 #################################
 # 1.4 (Aerodactyl)   2024-??-?? #
 #################################
+Major EEPROM restructure & incompatibility -> Get previous 1.3 unlocks by holding L for 1 minute on the title screen
+
 NEW SETUP:   
 - Powershell patch script included
-  - Create ROM out of .bps patch
+  - Create ROM out of patch
   - Create individual online ROMS for each player
   - Rename MK64-HD Textures to be compatible with ROM
+- Also 4 multiplayer patches included for people that cannot use the script for whatever reason
 
-NEW FEATURES:   
-- Online multiplayer fullscreen returns 	//Hold D-Up in-race 				(Only with Hooting HUD active!)	
-- Red shell incoming indicator   		//Settings -> HUD -> Redshell helper		(Red triangle will appear over character when shell in target mode)
-- Shell drift shot option   			//Settings -> Race -> Shell drift shot
-- Shoot all shells backwards option 		//Settings -> Race -> Backwards shells
+GENERAL:   
+- Online multiplayer fullscreen returns //Hold D-Up in-race (Only with Hooting HUD active!)	
+- Trophy HootHoot animated 	                                           
+- Anti-Abney Anti-Cheat Protection
+- Race/Battle Radar colored dots possible
+- Toggle for game tempo //Settings -> General -> Game Tempo 
+- Toggle for custom character transparency //Settings -> General -> custom char. alpha 
+- Toggle for showing held item in HUD (surprise item) //Settings -> HUD ->show held item 
+- Toggle for controller spinout //Settings -> Race -> Controller spinout
+- Toggle for enemy objects on maps (e.g. cars, chainchomp) //Settings -> General -> MapEnemies
+- Toggle for EEPROM Settings reset in OG options menu
+- VS/Battle win & lose pic anims
+
+GAME MODES:
+- New game modes //select on screen after map select
+  - VS/(GP): Health Points battle   //Battle. Every hit a life is lost. All lost become bomb and no pts.    
+  - VS/GP: Health Points race  //Race. Every hit a life is lost. All lost become bomb and no pts. One must live to succeed in GP.     
+  - VS/GP: Lap elimination //Race. Last one becomes a bomb at end of each lap.        
+  - VS/(GP): Last one drowning   //Battle. Push your enemies off the track. (Megadeathmode only!) 
+- If you become a bomb in those modes -> usual BLINKING BOMB
+
+LEVELS:
+- More hooting enemies 
+- Racetrack variations: //Settings -> General -> Map Design: original/hooting
+  - Banshee:
+    - Floating piece off wood blocks 
+      ...player (jump over at right moment or under lightning hit or through with ghost)
+      ...red shells (in move straight mode if not timed right, target mode goes through)
+    - Rain
+    - Stormy water
+    - Breaking railings
+  - Yoshi Valley:
+    - Psyduck blooper enemy in 1P
+  - DK Jungle Park:
+    - Beta boat slide readded
+  - General:
+    - Breaking railings toggle //Settings -> Map -> Break railings: only banshee / everywhere (I say so)
+    - Offroad sand is quicksand now
+
+ITEMS & SIMILAR:
+- Zen Boost: 
+  Jump (!) off a high enough (!) ledge of faith and release A to focus yourself -> white blinking (and Zen character pose) -> press and hold A again during landing at the right time to mini shroom
+- BLACK BOMB/Fake Itembox:
+  - Throwable exploding fake itemboxes. Usage like bananas. Moving activation radius. Auto explode after 10s. 
+    - CPUs throw fake IBs/bombs.
+  - Infect itemboxes with fake IBs setting //Settings -> General -> Itembox Infection: off, once (hits once), permanently (respawning fake IB)  //Fake IB needs to be placed inside IB hit radius! 
+    - CPUs infect itemboxes with fakes 
+- Star:
+  - Gain 2 star seconds for every kart hit
+  - STAR ALTERATION (50% chance if not in top 3): 
+    - Shooting star: Same as star. But: Hit 1 kart -> get mushroom boost. Hit 2 or more -> get another Shooting star (Endless star combo possibility!)
+    - Starbomb: You turn into a non-blinking KARTCOLOR BOMB. Hit 1 kart -> get mushroom boost. Hit 2 or more -> get a Shooting star. No hit -> Varying chance depending on your rank that you will explode! Better hit somebody!
+- Feather 3.0:
+  Defence: Jump over shells. Offence: direct hit -> squish, hit radius -> slip (if target not jumping!)
+- Shrooming: 
+  Increases weight now -> Toad can spin out Bowser while shrooming (Not during start boost!)
+- Gold shroom:
+  Used to be general 20s. Now its 13s + 1s * your rank. So 20s is the max when you are 8th in GP.
+- Red shell incoming indicator   //Settings -> HUD -> Redshell helper (Red triangle will appear over character when shell in target mode)
+- Shell drift shot option   //Settings -> General -> Shell drift shot
+- Shoot all shells backwards option //Settings -> General -> Backwards shells
   - Shoot triple greens backwards    +CPU 
-  - Shoot blues backwards            +CPU 	(They will attack 1st place from the front)
-  - Shoot reds backwards             +CPU 	(They become weaker orange shells with no targetting & no bouncing off walls)
-  - Shoot triple reds backwards      +CPU 	(They become weaker orange shells with no targetting & no bouncing off walls) 
-- Trophy HootHoot animated 	      
-- More hooting enemies  
-- Psyduck blooper enemy in 1P Yoshi Valley                        
-- New game modes: 
-  - VS/(GP): Health Points battle   		(Battle. Every hit a life is lost. All lost become bomb and no pts)    
-  - VS/GP: Health Points race  			(Race. Every hit a life is lost. All lost become bomb and no pts. One must live to succeed in GP)     
-  - VS/GP: Lap elimination 			(Race. Last one becomes a bomb at end of each lap)       
-  - VS/(GP): Last one drowning   		(Battle. Push your enemies off the track [Megadeathmode only!])              
-- Throw fake IBs/bombs  
-  - CPUs throw fake IBs/bombs  
-- Infect itemboxes with fake IBs setting 	//Settings -> General -> Itembox Infection: off, hits once, permanently hits/respawning		(Fake IB needs to be placed inside IB hit radius!) 
-  - CPUs infect itemboxes with fakes                  
-- Anti-Abney 					(Anti-Cheat Protection)
-- Toggle for game tempo 			//Settings -> General -> Game Tempo 
-- Toggle for custom character transparency 	//Settings -> General -> Custom char. alpha 
-- Toggle for showing held item in HUD	        //Settings -> HUD -> Show held item
-- Feather 3.0					(Skip shells, direct hit -> flatten enemy, small radius hit -> spin out enemy)
-- New racetrack variations: 			//Settings -> General -> Map Design: original/hooting
-  - Banshee 
-- Hoot holding key informs about gotten unlock
+  - Shoot blues backwards            +CPU //They will attack 1st place from the front
+  - Shoot reds backwards             +CPU //They become weaker orange shells with no targetting & no bouncing off walls
+  - Shoot triple reds backwards      +CPU //They become weaker orange shells with no targetting & no bouncing off walls   
 
-NEW UNLOCKS:
-- MegaDeathMode (Secret unlock)       		(Only you, your enemies and a thin line that seperates you from doom)
-- Road Rage (Secret unlock)           		//Press L or C-Down to honk at others                              
-- After race drive (Secret unlock)    		(You can still drive during results screen) 
-- Slapstick laugh (Secret unlock)    		(People laughig at your failures) 
+UNLOCKS:
+- Unlock notification: Hoot holding Unown key
+- MegaDeathMode (Secret unlock)       //Only you, your enemies and a thin line that seperates you from doom
+- Road Rage (Secret unlock)           //Press L or C-Down to honk at others                               
+- After race drive (Secret unlock)    //You can still drive during results screen etc.  
+- Slapstick laugh (Secret unlock)     //People laughig at your failures     
+- Need 4 Speed (Secret unlock)        //BGM speed depends on P1 driving speed
 
 CHANGES:
-- Altered boot sequence / EEPROM load 
-- Single lap races possible now 		//Press Start when the HootHoot appears during racestart
-- Simplified 3P/4P HUD 
-- Better crashscreen details   
-- Music menu inside pause menu          
-- EEPROM incompatibility 			//Get previous 1.3 unlocks by holding L for 1 minute on the title screen
+- Moved screen setup into original options menu
+- VS Bombs can now be globally turned on/off -> Bombs in TT possible!
+- Moved settings around
+- Removed 2P vertical screen option
+- Single lap races possible now //Press Start when the HootHoot appears during racestart
+- Simplified 3P/4P HUD
+- Better crashscreen details and solutions/suggestions  
+- Music menu inside in-game pause menu    
+- Fast skip PSEL anim //P1 must hold A during warp down
+- Fast skip intro //Press start during/after heart intro   
 
 FIXES:
 - OG major red shells target bug  
+- OG red shells slow down bug 
 - OG player tire surface update bug 
 - OG CPU tire update bug 
-- OG CPU spinouts from holding gas during Lakitu dropoff bug   
+- OG CPU spinouts from holding gas during Lakitu dropoff bug  
+- OG CPU slowdown after random drift mistake removed
+- OG CPU rival stuck in insane speed should be fixed (please tell me if not)
+- OG results music "infinite" loop removed
 - AntiStuckCPU not running in VS  
-- Enemy target player not running in VS 
+- Enemy target player not chosen in VS 
 - Weird piranha plant collision  
+- Weird TT strings thx 2 Pitstop
+- Removed slipstream anim from bots
 
 DEVLOG:
+(CPU accel hack)
+(CPUs with star a little faster)
+(nice guy lakitu 2.0)
+(CPU: Drift control hacked)
 (EEP: 16k Check moved)
-(Online: DMA Var from ROM)
+(EEP: Init changed, Reset added)
+(Online: DMA VAR from ROM)
+(Console: too slow, moved start screen to static RAM)
 (Console: Skipped BShells not killed anymore)
 (Console: Console check changed 1->0)
+(Audio: more hooks)
 (Disabled MD-bomb player SFX)
-(enemy item timer changed)
+(enemy item ptr timer changed)
 (player flags moved/autopilot changed)
 (Pathpoint check for reds) 
 (Removed distance check for reds) 
@@ -81,9 +139,15 @@ DEVLOG:
 (Added Triclon flag to Playerstruct) 
 (Using Lakitu hangflag) 
 (Disabled shroom player sfx spam) 
+(Disabled title flag change) 
+(Bomb hooks)
 (Rounded Romsize to Full MB for cheap EDs) 
 (PAYLOAD_RAM changed) 
 (Reduced static data)
+---
+(Credits scene possibly fixed) 
+(Reds/blues theor. need some wrong way check. OG hasnt.)  
+(Red triangle theor. need some angle adjust) 
 
 
 #################################
