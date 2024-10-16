@@ -12,6 +12,7 @@ NEW SETUP:
 
 GENERAL:   
 - Online multiplayer fullscreen returns //Hold D-Up in-race (Only with Hooting HUD active!)	
+  - RNG value printed in the pause menu for checking sync
 - Trophy HootHoot animated 	                                           
 - Anti-Abney Anti-Cheat Protection
 - Race/Battle Radar colored dots possible
@@ -20,8 +21,9 @@ GENERAL:
 - Toggle for showing held item in HUD (surprise item) //Settings -> HUD ->show held item 
 - Toggle for controller spinout //Settings -> Race -> Controller spinout
 - Toggle for enemy objects on maps (e.g. cars, chainchomp) //Settings -> General -> MapEnemies
-- Toggle for EEPROM Settings reset in OG options menu
+- Toggle for EEPROM Settings reset in original options menu
 - VS/Battle win & lose pic anims
+- GP Results fast skip by pressing A button. B or Start button to pause.
 
 GAME MODES:
 - New game modes //select on screen after map select
@@ -35,11 +37,14 @@ LEVELS:
 - More hooting enemies 
 - Racetrack variations: //Settings -> General -> Map Design: original/hooting
   - Banshee:
-    - Floating piece off wood blocks 
-      ...player (jump over at right moment or under lightning hit or through with ghost)
-      ...red shells (in move straight mode if not timed right, target mode goes through)
+    - Floating piece off wood  
+      ...blocks player (jump over at right moment or under lightning hit or through with ghost)
+      ...blocks shells (in move straight mode if not timed right, target mode goes through)
+      ...explodes player (When on the wood & other player hit the wood with star)
+      ...stomps player (When under the wood)
     - Rain
-    - Stormy water
+    - Stormy animated water
+    - Flooded passage slowdown
     - Breaking railings
   - Yoshi Valley:
     - Psyduck blooper enemy in 1P
@@ -51,7 +56,7 @@ LEVELS:
 
 ITEMS & SIMILAR:
 - Zen Boost: 
-  Jump (!) off a high enough (!) ledge of faith and release A to focus yourself -> white blinking (and Zen character pose) -> press and hold A again during landing at the right time to mini shroom
+  Jump (!) off a high enough (!) ledge of faith and release A to focus yourself -> Zen character pose / white blinking -> press and hold A again during landing at the right time to mini shroom
 - BLACK BOMB/Fake Itembox:
   - Throwable exploding fake itemboxes. Usage like bananas. Moving activation radius. Auto explode after 10s. 
     - CPUs throw fake IBs/bombs.
@@ -63,7 +68,7 @@ ITEMS & SIMILAR:
     - Shooting star: Same as star. But: Hit 1 kart -> get mushroom boost. Hit 2 or more -> get another Shooting star (Endless star combo possibility!)
     - Starbomb: You turn into a non-blinking KARTCOLOR BOMB. Hit 1 kart -> get mushroom boost. Hit 2 or more -> get a Shooting star. No hit -> Varying chance depending on your rank that you will explode! Better hit somebody!
 - Feather 3.0:
-  Defence: Jump over shells. Offence: direct hit -> squish, hit radius -> slip (if target not jumping!)
+  Defence: Jump over shells. Offence: direct hit -> squish, hit radius -> slip (if target not in-air!)
 - Shrooming: 
   Increases weight now -> Toad can spin out Bowser while shrooming (Not during start boost!)
 - Gold shroom:
@@ -112,6 +117,7 @@ FIXES:
 - Removed slipstream anim from bots
 
 DEVLOG:
+(Cam Control)
 (CPU accel hack)
 (CPUs with star a little faster)
 (nice guy lakitu 2.0)
