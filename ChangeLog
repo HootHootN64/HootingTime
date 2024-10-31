@@ -1,109 +1,124 @@
 #################################
-# 1.4 (Aerodactyl)   2024-??-?? #
+# 1.4 (Aerodactyl)   2024-10-31 #
 #################################
 Major EEPROM restructure & incompatibility -> Get previous 1.3 unlocks by holding L for 1 minute on the title screen
 
 NEW SETUP:   
 - Powershell patch script included
   - Create ROM out of patch
-  - Create individual online ROMS for each player
+  - Create individual online ROMS for each player (Also 4 multiplayer patches included for people that cannot use the script for whatever reason)
   - Rename MK64-HD Textures to be compatible with ROM
-- Also 4 multiplayer patches included for people that cannot use the script for whatever reason
 
 GENERAL:   
-- Online multiplayer fullscreen returns //Hold D-Up in-race (Only with Hooting HUD active!)	
-  - RNG value printed in the pause menu for checking sync
+- Online multiplayer fullscreen returns 		//Hold D-Up in-race (Only with Hooting HUD active!)	
+- RNG value printed in pause menu to check sync
 - Trophy HootHoot animated 	                                           
 - Anti-Abney Anti-Cheat Protection
 - Race/Battle Radar colored dots possible
-- Toggle for game tempo //Settings -> General -> Game Tempo 
-- Toggle for custom character transparency //Settings -> General -> custom char. alpha 
-- Toggle for showing held item in HUD (surprise item) //Settings -> HUD ->show held item 
-- Toggle for controller spinout //Settings -> Race -> Controller spinout
-- Toggle for enemy objects on maps (e.g. cars, chainchomp) //Settings -> General -> MapEnemies
-- Toggle for EEPROM Settings reset in original options menu
+- Toggle game tempo 					//Settings -> General -> Game Tempo 
+- Toggle custom character transparency 			//Settings -> General -> custom char. alpha 
+- Toggle showing held item in HUD (surprise item) 	//Settings -> Items -> Show held item 
+- Toggle controller spinout 				//Settings -> Race -> Controller spinout
+- Toggle enemy objects on maps (e.g. Turnpike cars) 	//Settings -> Maps -> Map Enemies
+- Reset to initial EEP settings in original options  	//GameSelect -> Press L
 - VS/Battle win & lose pic anims
-- GP Results fast skip by pressing A button. B or Start button to pause.
+- Fast skip GP results press A. B or Start to pause
+- More eye-friendly thunder effect
 
 GAME MODES:
-- New game modes //select on screen after map select
-  - VS/(GP): Health Points battle   //Battle. Every hit a life is lost. All lost become bomb and no pts.    
-  - VS/GP: Health Points race  //Race. Every hit a life is lost. All lost become bomb and no pts. One must live to succeed in GP.     
-  - VS/GP: Lap elimination //Race. Last one becomes a bomb at end of each lap.        
-  - VS/(GP): Last one drowning   //Battle. Push your enemies off the track. (Megadeathmode only!) 
-- If you become a bomb in those modes -> usual BLINKING BOMB
+If you get eliminated you become a bomb in those modes 	[usual BLINKING BOMB]
+
+- New game modes 					//Select on screen after map select
+  - VS: Health Points battle   				//Battle. Every hit a life is lost. All lost become bomb and no pts.      
+  - VS: Lap elimination 				//Race. Last one becomes a bomb at end of each lap.        
+  - VS: Last one drowning   				//Battle. Push your enemies off the track. (Megadeathmode only!) 
+  - VS/GP: Health Points race  				//Race. Every hit a life is lost. All lost become bomb and no pts. One must live to succeed in GP.   
 
 LEVELS:
-- More hooting enemies 
-- Racetrack variations: //Settings -> General -> Map Design: original/hooting
+- More hooting styled enemies 
+- Racetrack variations: 				//Settings -> Maps -> Map Design: original/hooting
   - Banshee:
     - Floating piece off wood  
-      ...blocks player (jump over at right moment or under lightning hit or through with ghost)
+      ...blocks player (jump over at right moment or driveunder lightning hit or through with ghost)
       ...blocks shells (in move straight mode if not timed right, target mode goes through)
-      ...explodes player (When on the wood & other player hit the wood with star)
+      ...explodes player (When on the wood & other player hits it with star)
       ...stomps player (When under the wood)
     - Rain
+    - Lightning sky
     - Stormy animated water
     - Flooded passage slowdown
     - Breaking railings
   - Yoshi Valley:
     - Psyduck blooper enemy in 1P
   - DK Jungle Park:
-    - Beta boat slide readded
+    - Beta boat slide re-added
   - General:
-    - Breaking railings toggle //Settings -> Map -> Break railings: only banshee / everywhere (I say so)
+    - Breaking railings toggle 				//Settings -> Maps -> Break railings: only banshee / everywhere (I say so)
     - Offroad sand is quicksand now
 
 ITEMS & SIMILAR:
 - Zen Boost: 
-  Jump (!) off a high enough (!) ledge of faith and release A to focus yourself -> Zen character pose / white blinking -> press and hold A again during landing at the right time to mini shroom
+  Jump (!) off a high enough (!) ledge of faith...
+  Release A to focus yourself -> White blinking...
+  Press and hold A during landing to mini shroom
 - BLACK BOMB/Fake Itembox:
-  - Throwable exploding fake itemboxes. Usage like bananas. Moving activation radius. Auto explode after 10s. 
-    - CPUs throw fake IBs/bombs.
-  - Infect itemboxes with fake IBs setting //Settings -> General -> Itembox Infection: off, once (hits once), permanently (respawning fake IB)  //Fake IB needs to be placed inside IB hit radius! 
-    - CPUs infect itemboxes with fakes 
+  - Throwable exploding fake itemboxes (Usage like banana) 
+     Moving activation radius. Auto explode after 10s. 
+  - Infect itemboxes with fake IBs 			//Settings -> Items -> Itembox Infection: off, once (hits once), permanently (respawning fake IB)  //Fake IB needs to be placed inside IB hit radius! 
+
 - Star:
   - Gain 2 star seconds for every kart hit
   - STAR ALTERATION (50% chance if not in top 3): 
-    - Shooting star: Same as star. But: Hit 1 kart -> get mushroom boost. Hit 2 or more -> get another Shooting star (Endless star combo possibility!)
-    - Starbomb: You turn into a non-blinking KARTCOLOR BOMB. Hit 1 kart -> get mushroom boost. Hit 2 or more -> get a Shooting star. No hit -> Varying chance depending on your rank that you will explode! Better hit somebody!
+    - Shooting star: 
+	Same as star. But: 
+	Hit 1 kart -> get mushroom boost. 
+        Hit 2 or more -> get another Shooting star (combo!)
+    - Starbomb: 
+	You turn into a [non-blinking KARTCOLOR BOMB]. 
+    	Hit 1 kart: 	Get mushroom boost. 
+       	Hit 2 or more: 	Get a Shooting star. 
+      	No hit:		Varying chance to explode based on rank!
 - Feather 3.0:
-  Defence: Jump over shells. Offence: direct hit -> squish, hit radius -> slip (if target not in-air!)
+   Defence: Jump over shells. 
+   Offence: direct hit -> squish, 
+            hit radius -> slip (if target not in-air!)
 - Shrooming: 
-  Increases weight now -> Toad can spin out Bowser while shrooming (Not during start boost!)
+   Lightweights can spin out heavy now
 - Gold shroom:
-  Used to be general 20s. Now its 13s + 1s * your rank. So 20s is the max when you are 8th in GP.
-- Red shell incoming indicator   //Settings -> HUD -> Redshell helper (Red triangle will appear over character when shell in target mode)
-- Shell drift shot option   //Settings -> General -> Shell drift shot
-- Shoot all shells backwards option //Settings -> General -> Backwards shells
+   Used to be general 20s. Now its 13s + 1s * rank. 
+   So 20s is the max when you are 8th in GP.
+- Red shell incoming indicator   			//Settings -> HUD -> Redshell helper (Red triangle will appear over character when shell in target mode)
+- Shell drift shot option   				//Settings -> Items -> Shell drift shot
+- Blue shell goes directly into target modus
+- Shoot all shells backwards option 			//Settings -> Items -> Backwards shells
   - Shoot triple greens backwards    +CPU 
-  - Shoot blues backwards            +CPU //They will attack 1st place from the front
-  - Shoot reds backwards             +CPU //They become weaker orange shells with no targetting & no bouncing off walls
-  - Shoot triple reds backwards      +CPU //They become weaker orange shells with no targetting & no bouncing off walls   
+  - Shoot blues backwards            +CPU 		//They will attack 1st place from the front
+  - Shoot reds backwards             +CPU 		//They become weaker orange shells with no targetting & no bouncing off walls
+  - Shoot triple reds backwards      +CPU 		//They become weaker orange shells with no targetting & no bouncing off walls   
 
-UNLOCKS:
+UNLOCKS: (see https://github.com/HootHootN64/HootingTime/blob/main/Achievements%20&%20Unlocks)
 - Unlock notification: Hoot holding Unown key
-- MegaDeathMode (Secret unlock)       //Only you, your enemies and a thin line that seperates you from doom
-- Road Rage (Secret unlock)           //Press L or C-Down to honk at others                               
-- After race drive (Secret unlock)    //You can still drive during results screen etc.  
-- Slapstick laugh (Secret unlock)     //People laughig at your failures     
-- Need 4 Speed (Secret unlock)        //BGM speed depends on P1 driving speed
+- MegaDeathMode     
+- Road Rage                              
+- After race drive    
+- Slapstick laugh      
+- Need 4 Speed        
 
 CHANGES:
-- Moved screen setup into original options menu
-- VS Bombs can now be globally turned on/off -> Bombs in TT possible!
+- Moved screen setup into original options menu		//GameSelect -> Press L
+- VS Bombs can now be globally turned on/off		//Settings -> Maps -> Map bombs
 - Moved settings around
 - Removed 2P vertical screen option
-- Single lap races possible now //Press Start when the HootHoot appears during racestart
+- Single lap races possible now 			//Press Start when the HootHoot appears during racestart
 - Simplified 3P/4P HUD
-- Better crashscreen details and solutions/suggestions  
+- Better crashscreen details and suggestions  
 - Music menu inside in-game pause menu    
-- Fast skip PSEL anim //P1 must hold A during warp down
-- Fast skip intro //Press start during/after heart intro   
+- Fast skip PSEL anim 					//P1 must hold A during warp down
+- Fast skip intro 					//Press start during/after heart intro   
 
 FIXES:
 - OG major red shells target bug  
-- OG red shells slow down bug 
+- OG triple red shells slow down bug 
 - OG player tire surface update bug 
 - OG CPU tire update bug 
 - OG CPU spinouts from holding gas during Lakitu dropoff bug  
@@ -117,6 +132,9 @@ FIXES:
 - Removed slipstream anim from bots
 
 DEVLOG:
+(playerHit[] doesnt count banana)
+(Effects: Gas calc)
+(View distance: Hi/VHi extended)
 (Cam Control)
 (CPU accel hack)
 (CPUs with star a little faster)
